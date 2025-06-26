@@ -14,7 +14,7 @@ import com.example.SpringSecurityWithDatabase.model.Employee;
 import com.example.SpringSecurityWithDatabase.service.EmployeeService;
 
 @RestController
-@RequestMapping("/api")
+@RequestMapping("/api/user")
 public class EmployeeController {
 
     @Autowired
